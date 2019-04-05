@@ -16,5 +16,7 @@ exclude = [
 ]
 
 [dependencies.nom]
-version = "4.2.1"
+#version = "4.2.1"
+git = "https://github.com/jonlamb-gh/nom.git"
+branch = "fix-for-5730"
 default-features = false
