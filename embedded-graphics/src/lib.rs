@@ -31,7 +31,7 @@
 //! objects rendered by embedded_graphics.
 
 #![no_std]
-#![deny(missing_docs)]
+//#![deny(missing_docs)]
 #![deny(missing_debug_implementations)]
 #![deny(missing_copy_implementations)]
 #![deny(trivial_casts)]

@@ -142,14 +142,14 @@ pub struct FontBuilderIterator<'a, C, Conf>
 where
     C: PixelColor,
 {
-    char_walk_x: u32,
-    char_walk_y: u32,
-    current_char: Option<char>,
-    idx: usize,
-    pos: Coord,
-    text: &'a str,
-    style: Style<C>,
-    _conf: PhantomData<Conf>,
+    pub char_walk_x: u32,
+    pub char_walk_y: u32,
+    pub current_char: Option<char>,
+    pub idx: usize,
+    pub pos: Coord,
+    pub text: &'a str,
+    pub style: Style<C>,
+    pub _conf: PhantomData<Conf>,
 }
 
 impl<'a, C, Conf> IntoIterator for &'a FontBuilder<'a, C, Conf>
